@@ -1,0 +1,33 @@
+GET http://localhost:3000/porosite
+
+
+###
+
+GET http://localhost:3000/porosite/651daa1dd9d48fc6a2000ecc
+
+###
+
+PATCH  http://localhost:3000/porosite/651f0f636b30af57f5fbe3da
+Content-Type: application/json
+
+{
+    "fullName" : "Besmir"
+}
+
+###
+
+DELETE http://localhost:3000/porosite/651daa1dd9d48fc6a2000ecc
+
+###
+
+POST  http://localhost:3000/porosite
+Content-Type: application/json
+
+{
+    "fullName" : "Ardit",
+    "email" : "diti004@hotmail.com"
+}
+
+###
+
+POST  http://localhost:3000/porosite/update1
